@@ -252,7 +252,9 @@
                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF"/>
 		</module>
 		<module name="OverloadMethodsDeclarationOrder"/>
-		<module name="VariableDeclarationUsageDistance"/>
+		<module name="VariableDeclarationUsageDistance">
+			<property name="allowedDistance" value="6"/>
+		</module>
 		<module name="CustomImportOrder">
 			<property name="sortImportsInGroupAlphabetically" value="false"/>
 			<property name="separateLineBetweenGroups" value="true"/>
