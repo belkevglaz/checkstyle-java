@@ -45,7 +45,7 @@
 	<module name="LineLength">
 		<property name="fileExtensions" value="java"/>
 		<!--        IDEA's code style -->
-		<property name="max" value="150"/>
+		<property name="max" value="160"/>
 		<property name="ignorePattern" value="^package.*|^import.*|a href|throw new|href|http://|https://|ftp://"/>
 	</module>
 
