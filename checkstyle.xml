@@ -316,7 +316,6 @@
 			<property name="ignoreNamePattern" value="log|logger"/>
 		</module>
 		<module name="JavadocMethod">
-			<property name="scope" value="public"/>
 			<property name="allowMissingParamTags" value="true"/>
 			<property name="allowMissingReturnTag" value="true"/>
 			<property name="allowedAnnotations" value="Override, Test"/>
