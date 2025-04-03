@@ -312,7 +312,6 @@
 			          value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF, VARIABLE_DEF"/>
 		</module>
 		<module name="JavadocVariable">
-			<property name="scope" value="private"/>
 			<property name="ignoreNamePattern" value="log|logger"/>
 		</module>
 		<module name="JavadocMethod">
